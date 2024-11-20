@@ -1,0 +1,21 @@
+[project]
+name = "ngpt-mlip"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter>=1.1.1",
+    "torch>=2.5.1",
+    "torch-geometric>=2.6.1",
+    "matplotlib>=3.9.2",
+    "ase>=3.23.0",
+    "schnetpack>=2.0.4",
+    "torch-cluster>=1.6.3",
+]
+
+
+[[tool.uv.index]]
+name = "torch-cluster"
+url = "https://data.pyg.org/whl/torch-2.5.0+cpu.html"
+explicit = true
