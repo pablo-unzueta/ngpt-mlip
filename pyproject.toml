@@ -12,6 +12,10 @@ dependencies = [
     "ase>=3.23.0",
     "schnetpack>=2.0.4",
     "torch-cluster>=1.6.3",
+    "sparse>=0.15.4",
+    "dscribe>=2.1.1",
+    "numba==0.57.0",
+    "numpy==1.24.0",
 ]
 
 
